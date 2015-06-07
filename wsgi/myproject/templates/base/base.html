@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+<head>
+ <!--{% load staticfiles %}-->
+ <!-- Website Title & Description for Search Engine purposes -->
+ <title>{% block title %}{% endblock %}</title>
+ <link href="{% static "askfedoratheme/stylesheets/main.css" %}" rel="stylesheet">
+ <!--<script src="http://code.jquery.com/jquery.js"></script>-->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="{% static "askfedoratheme/javascripts/main.js" %}"></script>
+
+ {% block cssfiles %}{% endblock %}
+
+</head>
+<body>
+
+    {% block navigation %}
+    <nav>
+        <div class="nav-container">
+            <div class="mobile-hamburger" >
+                
+                 <img src="{% static "askfedoratheme/images/hamburger.png" %}" class="field" alt="panda" height="30" width="30" onclick="toggleMenu()">
+
+                 <div class="pop-up" id="pop-up-menu">
+                    <div class="pop-up-hamburger">
+                        <img src="{% static "askfedoratheme/images/hamburger.png" %}" class="field" alt="panda" height="30" width="30" onclick="toggleMenu()">
+                    </div>
+                    <div class="profile">
+                        <div class="image">
+                            <img src="{% static "askfedoratheme/images/man.png" %}" alt="user" height="48" width="48">
+                        </div>
+                        <div class="username">
+                            HAPPY PANDA
+                        </div>
+                        <div class="stat">
+                            Karma<br>
+                            2 12 5
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <ul>
+                            <li><div class="list-item"><a href="#">ALL</a></div></li>
+                            <li><div class="list-item"><a href="#">UNANSWERED</a></div></li>
+                            <li><div class="list-item"><a href="#">FOLLOWED</a></div></li>
+                        </ul>
+                    </div>
+                    <div class="footer-items">
+                        <ul>
+                            <li><div class="list-item"><a href="#">TAGS</a></div></li>
+                            <li><div class="list-item"><a href="#">PEOPLE</a></div></li>
+                            <li><div class="list-item"><a href="#">BADGES</a></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="logo"> 
+                ASK
+            </div>
+            <div class="fedora-logo">
+                <img src="{% static "askfedoratheme/images/fedora_logo.png" %}" class="fedora-logo-img" alt="panda" height="30" width="30">
+            </div>
+            <div class="large-profile">
+                        <div class="large-content">
+                            <table>
+                                <tr>
+                                <td>Karma: 107 o 12 o 15 o 9</td>
+                                <td>HAPPY PANDA</td>
+                                <td><img src="{% static "askfedoratheme/images/man.png" %}" alt="user" height="30" width="30"></td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+             </div>
+        </div>
+    </nav>
+    {% endblock %}
+
+    {% block header %}
+    <header>
+        <div class="container">
+            <div class="desktop-hamburger" >
+                <img src="{% static "askfedoratheme/images/hamburger.png" %}" class="hamburger-img" alt="panda" height="30" width="30">
+             </div>
+            <div class="search-text-div">
+            <input class="search-text" type="" placeholder="Search or ask a question">
+            </div>
+            <div class="search-btn-div">
+            <input class="search-btn" id="ask" type="submit" value="ASK">
+            </div>
+        </div>
+    </header>
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}
+
+    {% block footer %}
+    <footer>
+        <div class="container">
+            <div class="footer-tag">
+                Tags
+            </div>
+            <div class="footer-tag">
+                People
+            </div>
+            <div class="footer-tag">
+                Badges
+            </div>
+            <div class="footer-tag">
+                About
+            </div>
+            <div class="footer-tag">
+                FAQs
+            </div>
+        </div>
+    </footer>
+    {% endblock %}
+
+</body>
+</html>
+

@@ -1,0 +1,46 @@
+@import "compass/reset";
+@import "susy";
+
+$susy: (
+  columns: 15,
+  math: fluid,
+  output: float,
+);
+
+@include border-box-sizing;
+
+/////////////////////////////////////////////////
+
+.container{
+	li:last-child{
+		margin-bottom: 3em;
+	}
+}
+
+.question, .answer{
+	background: gray;
+	height: 10em;
+}
+
+.question{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.answer{
+	margin-bottom: 0.5em;
+}
+
+.left-aside, .main{
+    height: 10em;
+}
+
+.left-aside{
+    @include span(2 of 15);
+    background: yellow;
+}
+
+.main{
+    @include span(13 at 3 of 15);
+    background: pink;
+}

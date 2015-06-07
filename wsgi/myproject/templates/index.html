@@ -1,0 +1,53 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block title %}
+AskFedora Q/A
+{% endblock %}
+
+{% block cssfiles %}
+<link href="{% static "askfedoratheme/stylesheets/answer_page.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+	<div class="question">
+		<div class="left-aside">
+			left
+		</div>
+		<div class="main">
+			main
+		</div>
+	</div>
+
+	<ul>
+		<li>
+			<div class="answer">
+				<div class="left-aside">
+					left
+				</div>
+				<div class="main">
+					main fgnrjgfdfmgndmfgdfgdf
+					gregdfngffffffff dgdsh dghdjsg dgshjdsg dfghjdfg dgdfjbg dgbdsjg dbgfdsjbg dsgbfdsjg dsngfdsjg dgsdsjbg dsgbdsj
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="answer">
+				<div class="left-aside">
+					left
+				</div>
+				<div class="main">
+					main
+				</div>
+			</div>
+		</li>
+	</ul>
+
+	<div class="right-aside">
+		This is the right aside, where you will include further information.
+	</div>
+</div>
+
+{% endblock %}
