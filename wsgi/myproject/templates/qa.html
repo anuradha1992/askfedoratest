@@ -1,0 +1,496 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block title %}
+AskFedora Q/A
+{% endblock %}
+{% block cssfiles %}
+<link href="{% static "askfedoratheme/stylesheets/body.css" %}" rel="stylesheet">
+{% endblock %}
+{% block content %}
+
+<div class="container">
+	<div class="main-left-container">
+		<div class="question">
+			<div class="main">
+				<table>
+					<tr>
+						<td class="left-aside">
+							<ul>
+								<li>
+									<div class="arrow-up"></div>
+									<font class="bold-text number">24</font>
+									<div class="arrow-down"></div>
+								</li>
+								<li id="twitter">
+									<a href="#"><i class="fa fa-twitter left-icons" style="color:#55acee"></i></a>
+									<!--<img src="{% static "askfedoratheme/images/twitter_icon.png" %}" alt="t" height="20" width="20">-->
+								</li><li>
+									<a href="#"><i class="fa fa-facebook left-icons" style="color:#4e69a2"></i></a>
+									<!--<img src="{% static "askfedoratheme/images/facebook_icon.png" %}" alt="f" height="20" width="20">-->
+								</li><li>
+									<a href="#"><i class="fa fa-linkedin left-icons" style="color:#069"></i></a>
+									<!--<img src="{% static "askfedoratheme/images/linkedIn_icon.png" %}" alt="L" height="20" width="20">-->
+								</li><li>
+									<a href="#"><i class="fa fa-google-plus left-icons" style="color:#db4437"></i></a>
+									<!--<img src="{% static "askfedoratheme/images/google_plus_icon.png" %}" alt="g+" height="20" width="20">-->
+							</ul>
+						</td>
+						<td class="main-content-td">
+
+							<div class="main-content">
+								<div class="title" id="question-title">
+									Installing virtual box 4.3.x
+									<hr>
+								</div>
+								<div class="content">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+								</div>
+								<div class="q-a-tag">
+									<table style="width: 100%">
+									<tr>
+										<td style="width: 100%; white-space:nowrap; vertical-align: top;">
+										<a href="#" class="tag">wololo</a>
+										<a href="#" class="tag">server</a>
+										<a href="#" class="tag">fedora</a>
+									</td>
+									<td style="width: 100%; white-space:nowrap; vertical-align: top;">
+									
+									<div class="user">
+										<font class="bold-text">asked 14 hours ago</font><br>
+										<table>
+											<tr>
+												<td>
+													<img src="{% static "askfedoratheme/images/man.png" %}" alt="user" height="30" width="30">
+												</td>
+												<td style="padding-left: 0.3em">
+													Anuradhaw<br>
+													<div class="large-content">
+														<table>
+															<tr>
+																<td>107&nbsp;</td> 
+																<td>
+																	<div>
+																		<div id="small-badge-gold" class="small-circle"></div>&nbsp;<font class="stat_text">2</font>&nbsp;
+																	</div>
+
+																</td>
+																<td>
+																	<div>
+																		<div id="small-badge-silver" class="small-circle"></div>&nbsp;<font class="stat_text">12</font>&nbsp;
+																	</div>
+
+																</td>
+																<td>
+																	<div>
+																		<div id="small-badge-bronze" class="small-circle"></div>&nbsp;<font class="stat_text">9</font>
+																	</div>
+																</tr>
+															</table>
+
+													</div>
+													</td>
+												</tr>
+											</table>
+									</div>
+								</td>
+								</tr>
+							</table>
+								</div>
+								<div class="comment">
+									<div class="title">
+										<font class="comment-header">Comments</font>
+										<div class="collapsible-table-comment">
+											<a id="comment-text-1">view comments</a>
+										</div>
+									</div>
+									<div class="collapsible-comment" id="collapsible-comment-1">
+									<div class="comment-content">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+										<br><br>
+										<a href=#>divjan</a>&nbsp;<font class="bold-text">(3 hours ago)</font>
+										
+									</div>
+									<hr>
+									<div class="comment-content">
+										Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+										<br><br>
+										<a href=#>Aenean</a>&nbsp;<font class="bold-text">(4 hours ago)</font>
+									</div>
+									<br>
+									<table>
+										<tr>
+									<td><!--<img src="{% static "askfedoratheme/images/comment.png" %}" alt="comment" height="15" width="15">-->
+										<i class="fa fa-comment comment-icon"></i></td>
+									<td>&nbsp;<a class="comment-text">add a comment</a></td>
+									</tr>
+									</table>
+								</div>
+								</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td colspan="2">
+
+									<table style="width: 100%">
+										<tr>
+											<td>
+											<div class="title" id="answer-title">
+											 2 Answers
+											</div>
+											</td>
+											<td style="vertical-align: bottom;">
+												<div class="sort">
+													<!--<font class="bold-text">SORT BY</font>&nbsp;-->
+
+													<a>Oldest&nbsp;
+													<!--<img src="{% static "askfedoratheme/images/blue-triangle-down.png" %}" class="down-arrow" alt="R" height="10" width="10">-->
+													</a>
+													&nbsp;<a>Newest&nbsp;
+													<!--<img src="{% static "askfedoratheme/images/blue-triangle-down.png" %}" class="down-arrow" alt="R" height="10" width="10">-->
+													&nbsp;<a><font class="bold-text">Most voted</font>&nbsp;
+													<!--<img src="{% static "askfedoratheme/images/blue-triangle-down.png" %}" class="down-arrow" alt="R" height="10" width="10">-->
+													<i class="fa fa-angle-down sort-down-icon" id="most-voted"></i></a>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<hr>
+											</td>
+										</tr>
+									</table>
+
+								</td>
+							</td>
+							</tr>
+
+							<tr>
+						<td class="left-aside answer-left-aside">
+							<ul>
+								<li>
+									<font class="bold-text number">16</font>
+								</li><li id="twitter">
+									<i class="fa fa-check fa-2x check"></i>
+									<!--<img src="{% static "askfedoratheme/images/right.png" %}" alt="R" height="20" width="20">-->
+								</li>
+							</ul>
+						</td>
+						<td>
+							<div class="main-content">
+								<div class="content">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+								</div>
+								<div class="q-a-tag">
+									<div class="user-container">
+									<div class="user">
+										<font class="bold-text">answered 7 hours ago</font><br>
+										<table>
+											<tr>
+												<td>
+													<img src="{% static "askfedoratheme/images/man.png" %}" alt="user" height="30" width="30">
+												</td>
+												<td style="padding-left: 0.3em">
+													Pellenkar<br>
+													<div class="large-content">
+														<table>
+															<tr>
+																<td>107&nbsp;</td> 
+																<td>
+																	<div>
+																		<div id="small-badge-gold" class="small-circle"></div>&nbsp;<font class="stat_text">2</font>&nbsp;
+																	</div>
+
+																</td>
+																<td>
+																	<div>
+																		<div id="small-badge-silver" class="small-circle"></div>&nbsp;<font class="stat_text">12</font>&nbsp;
+																	</div>
+
+																</td>
+																<td>
+																	<div>
+																		<div id="small-badge-bronze" class="small-circle"></div>&nbsp;<font class="stat_text">9</font>
+																	</div>
+																</tr>
+															</table>
+
+													</div>
+													</td>
+												</tr>
+											</table>
+									</div>
+								</div>
+								</div>
+
+								</td>
+							</tr>
+
+							<tr>
+								<td></td>
+								<td>
+									<div class="comment">
+									<div class="title">
+										<font class="comment-header">Comments</font>
+										<div class="collapsible-table-comment">
+											<a id="comment-text-2">view comments</a>
+										</div>
+									</div>
+									<div class="collapsible-comment" id="collapsible-comment-2">
+									<div class="comment-content">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+										<br><br>
+										<a href=#>divjan</a>&nbsp;<font class="bold-text">(3 hours ago)</font>
+										
+									</div>
+									<hr>
+									<div class="comment-content">
+										Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+										<br><br>
+										<a href=#>Aenean</a>&nbsp;<font class="bold-text">(4 hours ago)</font>
+									</div>
+									<br>
+									<table>
+										<tr>
+									<td><!--<img src="{% static "askfedoratheme/images/comment.png" %}" alt="comment" height="20" width="20">-->
+									<i class="fa fa-comment comment-icon"></i></td>
+									<td>&nbsp;<a class="comment-text">add a comment</a></td>
+
+									</tr>
+									</table>
+								</div>
+								</div>
+								</td>
+							</tr>
+
+
+
+							<tr>
+								<td colspan="2">
+									<br>
+									<hr>
+								</td>
+							</td>
+
+
+
+
+							<tr>
+						<td class="left-aside answer-left-aside">
+							<ul>
+								<li>
+									<font class="bold-text number">13</font>
+								</li><li id="twitter">
+									<i class="fa fa-check fa-2x check"></i>
+									<!--<img src="{% static "askfedoratheme/images/right.png" %}" alt="R" height="20" width="20">-->
+								</li>
+							</ul>
+						</td>
+						<td>
+
+							<div class="main-content">
+								
+								<div class="content">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+								</div>
+								<div class="q-a-tag">
+									<div class="user-container">
+									<div class="user">
+										<font class="bold-text">answered 7 hours ago</font><br>
+										<table>
+											<tr>
+												<td>
+													<img src="{% static "askfedoratheme/images/man.png" %}" alt="user" height="30" width="30">
+												</td>
+												<td style="padding-left: 0.3em">
+													Pellenkar<br>
+													<div class="large-content">
+														<table>
+															<tr>
+																<td>107&nbsp;</td> 
+																<td>
+																	<div>
+																		<div id="small-badge-gold" class="small-circle"></div>&nbsp;<font class="stat_text">2</font>&nbsp;
+																	</div>
+
+																</td>
+																<td>
+																	<div>
+																		<div id="small-badge-silver" class="small-circle"></div>&nbsp;<font class="stat_text">12</font>&nbsp;
+																	</div>
+
+																</td>
+																<td>
+																	<div>
+																		<div id="small-badge-bronze" class="small-circle"></div>&nbsp;<font class="stat_text">9</font>
+																	</div>
+																</tr>
+															</table>
+
+													</div>
+													</td>
+												</tr>
+											</table>
+									</div>
+								</div>
+								</div>
+
+								</td>
+							</tr>
+
+							<tr>
+								<td></td>
+								<td>
+									<div class="comment">
+									<div class="title">
+										<font class="comment-header">Comments</font>
+										<div class="collapsible-table-comment">
+											<a id="comment-text-3">view comments</a>
+										</div>
+									</div>
+									<div class="collapsible-comment" id="collapsible-comment-3">
+									<div class="comment-content">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+										<br><br>
+										<a href=#>divjan</a>&nbsp;<font class="bold-text">(3 hours ago)</font>
+										
+									</div>
+									<hr>
+									<div class="comment-content">
+										Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+										<br><br>
+										<a href=#>Aenean</a>&nbsp;<font class="bold-text">(4 hours ago)</font>
+									</div>
+									<br>
+									<table>
+										<tr>
+									<td><!--<img src="{% static "askfedoratheme/images/comment.png" %}" alt="comment" height="20" width="20">-->
+									<i class="fa fa-comment comment-icon"></i></td>
+									<td>&nbsp;<a class="comment-text">add a comment</a></td>
+
+									</tr>
+									</table>
+								</div>
+								</div>
+								</td>
+							</tr>
+
+
+							<tr>
+								<td colspan="2">
+									<br><hr>
+									<div class="title answer-title">
+									 Your answer
+									 <br>
+									 <textarea class="answer-textarea"></textarea>
+									 
+									</div>
+
+									<div class="preview">
+										<a href="#">[Hide preview]</a>
+										<textarea type="text" class="preview-text" disabled></textarea><br><br>
+										<table>
+											<tr>
+												<td class="table-checkbox">
+										<section title=".squaredFour">
+										    <div class="squaredFour">
+										      <input type="checkbox" value="None" id="squaredFour" name="check" checked />
+										      <label for="squaredFour"></label>
+										    </div>
+										  </section>
+										</td>
+										<td>
+										community wiki (karma is not awarded & many others can edit wiki post)
+									</td>
+									</tr>
+									</table>
+									<br>
+									<input class="normal-btn post-btn" id="ask" type="submit" value="Post your answer"><br><br>
+									</div>
+								</td>
+							</td>
+							</tr>
+						</table>
+
+					</div>
+				</div>
+
+			</div>
+
+		<div class="right-aside">
+			<div class="right-content">
+				<font class="bold-text title">Use your votes!</font><br><br>
+				<ul>
+					<li>
+						Use the 30 daily voting points that you get!<br><br>
+					</li><li>
+					Up-vote well framed questions that provide enough information to enable people provide answers.<br><br>
+				</li><li>
+				Thank your helpers by up-voting their comments and answers. If a question you asked has been answered, accept the best answer by clicking on the checkbox on the left side of the answer.<br><br>
+				</li><li>
+				Down-voting might cost you karma, but you should consider doing so for incorrect or clearly detrimental questions and answers.<br><br>
+				</li>
+				</ul>
+			</div>
+
+			<br>
+
+			<div class="right-content">
+				<font class="bold-text title">Question Tools</font><br><br>
+				
+				<input class="normal-btn follow-btn" id="ask" type="submit" value="Follow"><br><br>
+				1 Follower<br><br>
+				<a href="#">subscribe to rss feed</a>
+					
+			</div>
+
+			<br>
+
+			<div class="right-content">
+				<font class="bold-text title">Stats</font><br><br>
+				<table width="100%">
+					<tr>
+						<td>
+							Asked:
+						</td>
+						<td class="table-right-align">
+							May 29 '15
+						</td>
+					</tr>
+					<tr><td colspan="2"><hr></td></tr>
+					<tr>
+						<td>
+							Seen:
+						</td>
+						<td class="table-right-align">
+							196 times
+						</td>
+					</tr>
+					<tr><td colspan="2"><hr></td></tr>
+					<tr>
+						<td>
+							Last updated:
+						</td>
+						<td class="table-right-align">
+							10 hours ago
+						</td>
+					</tr>
+				</table>	
+			</div>
+
+			<br>
+
+			<div class="right-content">
+				<font class="bold-text title">Related Questions</font><br><br>
+				<a href="#">revert/reset Gnome keyboard shortcuts to defaults</a><br><br>
+				<a href="#">Nautilus Go Back/Up shortcut</a><br><br>
+				<a href="#">When may evasion 7 function 7.1? [closed]</a><br><br>
+				<a href="#">Disable touchpad while typing on GNOME (Fedora 22)</a><br><br>
+				<a href="#">Gnome 3.16 in fedora 21</a>
+			</div>
+		</div>
+
+</div>
+		
+
+{% endblock %}

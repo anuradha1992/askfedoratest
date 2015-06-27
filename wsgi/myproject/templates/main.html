@@ -1,0 +1,207 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block title %}
+AskFedora Q/A
+{% endblock %}
+{% block cssfiles %}
+<link href="{% static "askfedoratheme/stylesheets/body.css" %}" rel="stylesheet">
+<link href="{% static "askfedoratheme/stylesheets/main.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block menu %}
+<div class="menu-container">
+	<div class="container">
+		<div class="content">
+			<div class="left">
+				<font class="bold-text">10,799 questions</font>
+			</div>
+			<div class="right">
+				<div class="menu-item"><font class="bold-text">SORT BY</font></div>
+				<div class="menu-item" id="date"><a href="#">Date</a></div>
+				<div class="menu-item"  id="activity"><a href="#">Activity</a>&nbsp;<b><i class="fa fa-angle-down"></i></b></div>
+				<div class="menu-item"  id="answers"><a href="#">Answers</a></div>
+				<div class="menu-item"  id="votes"><a href="#">Votes</a></div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+	<div class="main-left-container">
+		<div class="question">
+				<div class="top">
+					<font style="float: left; margin-top: 0.25em">Tagged&nbsp;&nbsp;</font>
+					<a href="#" class="tag tagged-tag top-tagged-tag">wololo</a><br>
+				</div>
+			<br>
+			<div class="main">
+				<div class="card" style="position:relative;">
+					<div class="tick">
+						<i class="fa fa-check fa-1x icon"></i>
+					</div>
+				<div class="question-card">
+					<div class="left">
+						6<br>
+						<i class="fa fa-check fa-1x icon correct"></i>
+					</div>
+					<div class="right">
+					<div class="question-pane">Why does Barq's taste like sweetend violini?</div>
+					<br>
+					
+
+					<a href="#" class="tag tagged-tag">wololo</a>
+					<a href="#" class="tag">server</a>
+					<a href="#" class="tag">fedora</a>
+
+
+					</div>
+					<div class="right-stat">
+						<div class="stat">
+							3<br>
+							<!--<a title="Votes" class="tooltip"><i class="fa fa-thumbs-up icon"></i></a>-->
+							<a href="#" title="Votes" class="tooltip"><span title=""><i class="fa fa-thumbs-up icon"></i></span></a>
+						</div>
+						<div class="stat">
+							12<br>
+							<a href="#" title="Views" class="tooltip"><span title=""><i class="fa fa-eye icon"></i></span></a>
+						</div>
+						<div class="stat">
+							4<br>
+							<a href="#" title="Answers" class="tooltip"><span title=""><i class="fa fa-pencil icon"></i></span></a>
+						</div>
+					</div>
+				</div>
+				<text class="username">Jan 22'15&nbsp;&nbsp;<font class="bold-text">anuradhaw</font></text>
+				</div>
+
+				<!---------------------------------------->
+
+				<div class="card">
+				<div class="question-card">
+					<div class="left">
+						6<br>
+						<i class="fa fa-pencil fa-1x icon"></i>
+					</div>
+					<div class="right">
+					<div class="question-pane">What happens when you ignite a can of pressurized soda?</div>
+					<br>
+					
+
+					<a href="#" class="tag tagged-tag">wololo</a>
+					<a href="#" class="tag">server</a>
+					<a href="#" class="tag">fedora</a>
+
+
+					</div>
+					<div class="right-stat">
+						<div class="stat">
+							3<br>
+							<!--<a title="Votes" class="tooltip"><i class="fa fa-thumbs-up icon"></i></a>-->
+							<a href="#" title="Votes" class="tooltip"><span title=""><i class="fa fa-thumbs-up icon"></i></span></a>
+						</div>
+						<div class="stat">
+							12<br>
+							<a href="#" title="Views" class="tooltip"><span title=""><i class="fa fa-eye icon"></i></span></a>
+						</div>
+						<div class="stat">
+							4<br>
+							<a href="#" title="Answers" class="tooltip"><span title=""><i class="fa fa-pencil icon"></i></span></a>
+						</div>
+					</div>
+				</div>
+				<text class="username">Jan 22'15&nbsp;&nbsp;<font class="bold-text">anuradhaw</font></text>
+				</div>
+
+				<!---------------------------------------->
+
+				<div class="card">
+				<div class="question-card">
+					<div class="left">
+						6<br>
+						<i class="fa fa-pencil fa-1x icon"></i>
+					</div>
+					<div class="right">
+					<div class="question-pane">Why does one ever decides to drink Barq's?</div>
+					<br>
+					
+
+					<a href="#" class="tag tagged-tag">wololo</a>
+					<a href="#" class="tag">server</a>
+					<a href="#" class="tag">fedora</a>
+
+
+					</div>
+					<div class="right-stat">
+						<div class="stat">
+							3<br>
+							<!--<a title="Votes" class="tooltip"><i class="fa fa-thumbs-up icon"></i></a>-->
+							<a href="#" title="Votes" class="tooltip"><span title=""><i class="fa fa-thumbs-up icon"></i></span></a>
+						</div>
+						<div class="stat">
+							12<br>
+							<a href="#" title="Views" class="tooltip"><span title=""><i class="fa fa-eye icon"></i></span></a>
+						</div>
+						<div class="stat">
+							4<br>
+							<a href="#" title="Answers" class="tooltip"><span title=""><i class="fa fa-pencil icon"></i></span></a>
+						</div>
+					</div>
+				</div>
+				<text class="username">Jan 22'15&nbsp;&nbsp;<font class="bold-text">anuradhaw</font></text>
+				</div>
+
+				<!---------------------------------------->
+
+				</div>
+		</div>
+
+		<div class="pagination">
+			<ul class="paginate pag3 clearfix">
+			  <li class="arrow"><a href="#" class="arrow-link" style="color: #fff"><</a></li>
+			  <li><a href="index.html" class="page">1</a></li>
+			  <li><a href="index-2.html" class="page">2</a></li>
+			  <li class="current">3</li>
+			  <li><a href="index-4.html" class="page">4</a></li>
+			  <li><a href="index-5.html" class="page">5</a></li>
+			  <li  class="arrow"><a href="#" class="arrow-link" style="color: #fff">></a></li>
+			</ul>
+		</div>
+		
+
+	</div>
+		<div class="right-aside">
+			<div class="right-content right-content-colorless">
+				<font class="bold-text title">Sticky Questions</font><br><br>
+				<ul class="normal-ul">
+					<li>
+						<a href="#">Why does one ever decide to drink Barq's?</a><br><br>
+					</li><li>
+					<a href="#">Who decided to produce Barq's?</a><br><br>
+				</li><li>
+				<a href="#">Is Barq just a root beer for lame people?</a><br><br>
+				</li><li>
+				<a href="#">What happens when you ignite a can of pressured soda?</a><br><br>
+				</li>
+				</ul>
+				<a href="#">more..</a>
+			</div>
+			<br>
+			<div class="right-content right-content-colorless">
+				<font class="bold-text title">Tags</font><br><br>
+
+				<a href="#" class="tag tagged-tag">wololo</a>
+				<a href="#" class="tag">sandy</a>
+				<a href="#" class="tag">workstation</a>
+				<a href="#" class="tag">server</a>
+				<a href="#" class="tag">askbot</a>
+				<a href="#" class="tag">fedora</a>
+
+			</div>
+
+			
+		</div>
+</div>
+{% endblock %}

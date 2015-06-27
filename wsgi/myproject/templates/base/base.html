@@ -3,13 +3,20 @@
 
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
  <!--{% load staticfiles %}-->
  <!-- Website Title & Description for Search Engine purposes -->
  <title>{% block title %}{% endblock %}</title>
- <link href="{% static "askfedoratheme/stylesheets/main.css" %}" rel="stylesheet">
+ <link href="{% static "askfedoratheme/stylesheets/base.css" %}" rel="stylesheet">
+ <link href="{% static "askfedoratheme/stylesheets/menu_style.css" %}" rel="stylesheet">
+ <!--<link href="{% static "askfedoratheme/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css" %}" rel="stylesheet">-->
+ <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static "askfedoratheme/javascripts/sidr/stylesheets/jquery.sidr.dark.css" %}">
+
  <!--<script src="http://code.jquery.com/jquery.js"></script>-->
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="{% static "askfedoratheme/javascripts/main.js" %}"></script>
+<script src="{% static "askfedoratheme/javascripts/sidr/jquery.sidr.min.js" %}"></script>
 
  {% block cssfiles %}{% endblock %}
 
@@ -19,24 +26,54 @@
     {% block navigation %}
     <nav>
         <div class="nav-container">
-            <div class="mobile-hamburger" >
-                
-                 <img src="{% static "askfedoratheme/images/hamburger.png" %}" class="field" alt="panda" height="30" width="30" onclick="toggleMenu()">
-
-                 <div class="pop-up" id="pop-up-menu">
+                <div class="mobile-hamburger" >
+                <a id="simple-menu-back" href="#sidr">
+                 <!--<img src="{% static "askfedoratheme/images/hamburger.png" %}" class="field" alt="menu" height="30" width="30" onclick="toggleMenu()">-->
+                 <i class="fa fa-bars fa-2x mobile-hamburger-icon"></i>
+                </a>
+                 <div class="pop-up" id="sidr">
                     <div class="pop-up-hamburger">
-                        <img src="{% static "askfedoratheme/images/hamburger.png" %}" class="field" alt="panda" height="30" width="30" onclick="toggleMenu()">
+                        <a id="simple-menu-front" href="#sidr">
+                        <i class="fa fa-bars fa-2x mobile-hamburger-icon"></i>
+                        </a>
                     </div>
                     <div class="profile">
-                        <div class="image">
-                            <img src="{% static "askfedoratheme/images/man.png" %}" alt="user" height="48" width="48">
-                        </div>
-                        <div class="username">
-                            HAPPY PANDA
-                        </div>
+                        
                         <div class="stat">
-                            Karma<br>
-                            2 12 5
+                            <table>
+                                                <tr>
+                                                    <td style="white-space:nowrap;" class="pop-td image">
+                                                        <img src="{% static "askfedoratheme/images/man.png" %}" alt="user" height="48" width="48">
+                                                        <!--<i class="fa fa-user"></i>-->
+                                                 </td>
+                                                 <td colspan="2" class="username pop-td">
+                                                        Happy Panda
+                                                </td>
+                                                </tr>
+                                            </table>
+                                            <table style="width: 100%">
+                                                            <tr>
+                                                                <td colspan="3" class="pop-td">Karma: 107&nbsp;</td> 
+                                                            </tr>
+                                                                <tr class="pop-td">
+                                                                <td width="33.33%" class="pop-td">
+                                                                    <div>
+                                                                        <div id="badge-gold" class="circle"></div>&nbsp;<font class="stat_text">2</font>&nbsp;
+                                                                    </div>
+
+                                                                </td>
+                                                                <td width="33.33%" class="pop-td">
+                                                                    <div>
+                                                                        <div id="badge-silver" class="circle"></div>&nbsp;<font class="stat_text">12</font>&nbsp;
+                                                                    </div>
+
+                                                                </td>
+                                                                <td width="33.33%" class="pop-td">
+                                                                    <div>
+                                                                        <div id="badge-bronze" class="circle"></div>&nbsp;<font class="stat_text">9</font>
+                                                                    </div>
+                                                                </tr>
+                                                            </table>
                         </div>
                     </div>
                     <div class="menu-items">
@@ -56,18 +93,48 @@
                 </div>
             </div>
             <div class="logo"> 
-                ASK
+                <table>
+                <tr>
+                <td>ASK</td> 
+                <td>
+                    <div>
+                        <img src="{% static "askfedoratheme/images/fedora_logo.png" %}" class="invisible-fedora-logo" alt="fedora" height="30" width="30">
+                    </div>
+                </td>
+                </tr>
+                </table>
             </div>
             <div class="fedora-logo">
-                <img src="{% static "askfedoratheme/images/fedora_logo.png" %}" class="fedora-logo-img" alt="panda" height="30" width="30">
+                <img src="{% static "askfedoratheme/images/fedora_logo.png" %}" class="fedora-logo-img" alt="fedora" height="30" width="30">
             </div>
             <div class="large-profile">
                         <div class="large-content">
                             <table>
                                 <tr>
-                                <td>Karma: 107 o 12 o 15 o 9</td>
-                                <td>HAPPY PANDA</td>
-                                <td><img src="{% static "askfedoratheme/images/man.png" %}" alt="user" height="30" width="30"></td>
+                                <td>Karma: 107</td> 
+                                <td>
+                                    <div>
+                                        <div id="badge-gold" class="circle"></div>&nbsp;&nbsp;<font class="stat_text">2</font>
+                                    </div>
+
+                                </td>
+                                <td>
+                                    <div>
+                                        <div id="badge-silver" class="circle"></div>&nbsp;&nbsp;<font class="stat_text">12</font>
+                                    </div>
+
+                                </td>
+                                <td>
+                                    <div>
+                                        <div id="badge-bronze" class="circle"></div>&nbsp;&nbsp;<font class="stat_text">9</font>
+                                    </div>
+
+                                </td>
+                                <td style="text-align: right">Happy Panda</td>
+                                <td style="text-align: right; padding-right: 0em">
+                                    <img src="{% static "askfedoratheme/images/man.png" %}" alt="user" height="32" width="32">
+                                    <!--<i class="fa fa-user"></i>-->
+                                </td>
                                 </tr>
                             </table>
                             
@@ -79,10 +146,29 @@
 
     {% block header %}
     <header>
-        <div class="container">
-            <div class="desktop-hamburger" >
+        <div class="header-container">
+            <!--<div class="desktop-hamburger" >
                 <img src="{% static "askfedoratheme/images/hamburger.png" %}" class="hamburger-img" alt="panda" height="30" width="30">
-             </div>
+             </div>-->
+             <div class="desktop-hamburger" >
+                <!--<img src="{% static "askfedoratheme/images/hamburger.png" %}" class="hamburger-img" alt="panda" height="30" width="30">-->
+                <div id='cssmenu'>
+                    <ul>
+                        <li class='active has-sub last'>
+                        <a href='#'><span>
+                            <div id="image-div">
+                            <i class="fa fa-bars fa-2x desktop-hamburger-icon"></i>
+                            </div>
+                        </span></a>
+                        <ul>
+                        <li><a href='#'><span>ALL</span></a></li>
+                        <li><a href='#'><span>UNANSWERED</span></a></li>
+                        <li class='last'><a href='#'><span>FOLLOWED</span></a></li>
+                        </ul>
+                        </li>
+                        </ul>
+                </div>
+            </div>
             <div class="search-text-div">
             <input class="search-text" type="" placeholder="Search or ask a question">
             </div>
@@ -90,7 +176,11 @@
             <input class="search-btn" id="ask" type="submit" value="ASK">
             </div>
         </div>
+        
     </header>
+    {% block menu %}
+    {% endblock %}
+
     {% endblock %}
 
     {% block content %}
@@ -100,24 +190,26 @@
     <footer>
         <div class="container">
             <div class="footer-tag">
-                Tags
+                TAGS
             </div>
             <div class="footer-tag">
-                People
+                PEOPLE
             </div>
             <div class="footer-tag">
-                Badges
+                BADGES
             </div>
             <div class="footer-tag">
-                About
+                ABOUT
             </div>
             <div class="footer-tag">
-                FAQs
+                FAQ
             </div>
+        </div>
+        <div class="askbot">
+            <a href="#"><img src="{% static "askfedoratheme/images/cc-by-sa.png" %}" class="cc-by-sa" alt="cc-by-sa" ></a>
         </div>
     </footer>
     {% endblock %}
 
 </body>
 </html>
-

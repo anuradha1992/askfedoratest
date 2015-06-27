@@ -70,244 +70,163 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   box-sizing: border-box;
 }
 
-/* line 35, ../sass/answer_page.scss */
-.container {
-  margin-bottom: 3em;
-}
-
-@media (min-width: 560px) {
-  /* line 40, ../sass/answer_page.scss */
+@media (min-width: 600px) {
+  /* line 35, ../sass/body.scss */
   .question, .answer {
     margin-left: 6.75676%;
   }
 }
-@media (min-width: 760px) {
-  /* line 40, ../sass/answer_page.scss */
+@media (min-width: 800px) {
+  /* line 35, ../sass/body.scss */
   .question, .answer {
     margin-left: 8.78378%;
   }
 }
 
-/* line 51, ../sass/answer_page.scss */
+/* line 44, ../sass/body.scss */
 .main-content-td {
   vertical-align: top;
 }
 
-/* line 55, ../sass/answer_page.scss */
+/* line 48, ../sass/body.scss */
 .main-content {
   padding-top: 0.2em;
 }
 
-/* line 61, ../sass/answer_page.scss */
+/* line 52, ../sass/body.scss */
 .content {
   padding-top: 0.5em;
 }
 
-/* line 65, ../sass/answer_page.scss */
+/* line 56, ../sass/body.scss */
 .q-a-tag {
   padding-top: 1em;
 }
 
-/* line 71, ../sass/answer_page.scss */
-.tag {
-  float: left;
-  height: 24px;
-  line-height: 23px;
-  position: relative;
-  font-size: 90%;
-  font-weight: 500;
-  margin-right: 0.8em;
-  margin-bottom: 0.6em;
-  padding: 0 7px 0 7px;
-  border-radius: .25em;
-  background: #999999;
-  color: #fff;
-  text-decoration: none;
-}
-
-/* line 87, ../sass/answer_page.scss */
-.tag:hover {
-  cursor: pointer;
-  background: #666666;
-}
-
-/* line 92, ../sass/answer_page.scss */
-.user {
-  float: right;
-  background: #dedede;
-  padding: 1em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  font-size: 0.7em;
-}
-/* line 99, ../sass/answer_page.scss */
-.user td {
-  padding-top: 0.2em;
-}
-
-@media (min-width: 760px) {
-  /* line 104, ../sass/answer_page.scss */
-  .main-left-container {
-    width: 79.72973%;
-    float: left;
-    margin-right: 1.35135%;
-  }
-}
-@media (min-width: 560px) {
-  /* line 104, ../sass/answer_page.scss */
-  .main-left-container {
-    padding-left: 0.5em;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 104, ../sass/answer_page.scss */
-  .main-left-container {
-    padding-left: 0em;
-  }
-}
-
-/* line 126, ../sass/answer_page.scss */
+/* line 61, ../sass/body.scss */
 .comment {
   margin-top: 1em;
 }
-/* line 127, ../sass/answer_page.scss */
+/* line 62, ../sass/body.scss */
 .comment .collapsible-comment {
   display: none;
 }
-@media (min-width: 560px) {
-  /* line 127, ../sass/answer_page.scss */
+@media (min-width: 600px) {
+  /* line 62, ../sass/body.scss */
   .comment .collapsible-comment {
     display: inline;
   }
 }
-/* line 134, ../sass/answer_page.scss */
+/* line 69, ../sass/body.scss */
 .comment .title {
   margin-bottom: 0.5em;
 }
-/* line 138, ../sass/answer_page.scss */
+/* line 73, ../sass/body.scss */
 .comment .comment-header {
   display: none;
 }
-@media (min-width: 560px) {
-  /* line 138, ../sass/answer_page.scss */
+@media (min-width: 600px) {
+  /* line 73, ../sass/body.scss */
   .comment .comment-header {
     display: inline;
   }
 }
-/* line 145, ../sass/answer_page.scss */
+/* line 80, ../sass/body.scss */
 .comment .collapsible-table-comment {
-  font-size: 0.8em;
   cursor: pointer;
 }
-@media (min-width: 560px) {
-  /* line 145, ../sass/answer_page.scss */
+@media (min-width: 600px) {
+  /* line 80, ../sass/body.scss */
   .comment .collapsible-table-comment {
     display: none;
   }
 }
-/* line 156, ../sass/answer_page.scss */
+/* line 89, ../sass/body.scss */
 .comment .comment-content {
   font-size: 0.8em;
 }
-/* line 159, ../sass/answer_page.scss */
-.comment #comment-text {
+/* line 92, ../sass/body.scss */
+.comment .comment-text {
   font-size: 0.8em;
   cursor: pointer;
 }
 
-/* line 165, ../sass/answer_page.scss */
+/* line 98, ../sass/body.scss */
 .title {
   font-weight: bold;
 }
 
-/* line 169, ../sass/answer_page.scss */
+/* line 102, ../sass/body.scss */
 #question-title {
   font-size: 1.3em;
 }
 
-/* line 173, ../sass/answer_page.scss */
+/* line 106, ../sass/body.scss */
 #answer-title {
   margin-top: 1.5em;
   font-size: 1.2em;
 }
 
-/* line 178, ../sass/answer_page.scss */
+/* line 111, ../sass/body.scss */
 .sort {
   float: right;
   margin-top: 1.5em;
-  font-size: 0.8em;
+  font-size: 1em;
 }
-@media (min-width: 560px) {
-  /* line 178, ../sass/answer_page.scss */
-  .sort {
-    font-size: 1em;
-  }
-}
-/* line 185, ../sass/answer_page.scss */
+/* line 115, ../sass/body.scss */
 .sort a {
   cursor: pointer;
 }
-/* line 188, ../sass/answer_page.scss */
+/* line 118, ../sass/body.scss */
 .sort .down-arrow {
   width: 8px;
   height: 8px;
 }
-@media (min-width: 560px) {
-  /* line 188, ../sass/answer_page.scss */
+@media (min-width: 600px) {
+  /* line 118, ../sass/body.scss */
   .sort .down-arrow {
     width: 10px;
     height: 10px;
   }
 }
 
-/* line 198, ../sass/answer_page.scss */
+/* line 128, ../sass/body.scss */
 .left-aside {
-  padding-right: 0.6em;
   vertical-align: top;
+  text-align: center;
 }
-@media (min-width: 560px) {
-  /* line 198, ../sass/answer_page.scss */
-  .left-aside {
-    padding-right: 0.8em;
-  }
-}
-/* line 204, ../sass/answer_page.scss */
+/* line 135, ../sass/body.scss */
 .left-aside li {
   padding-bottom: 0.5em;
 }
 
-/* line 209, ../sass/answer_page.scss */
+/* line 140, ../sass/body.scss */
 #twitter {
   padding-top: 0.5em;
 }
 
-/* line 213, ../sass/answer_page.scss */
+/* line 144, ../sass/body.scss */
 .left-icons {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
-/* line 217, ../sass/answer_page.scss */
+/* line 148, ../sass/body.scss */
 .answer-left-aside {
   padding-top: 0.5em;
 }
 
-/* line 221, ../sass/answer_page.scss */
-.question {
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-}
-
-/* line 226, ../sass/answer_page.scss */
+/* line 152, ../sass/body.scss */
 .answer {
   margin-bottom: 0.5em;
 }
 
-/* line 235, ../sass/answer_page.scss */
+/* line 156, ../sass/body.scss */
 .comment-icon {
   color: #3c6eb4;
+  font-size: 1em;
 }
 
-/* line 243, ../sass/answer_page.scss */
+/* line 161, ../sass/body.scss */
 .answer-textarea {
   width: 100%;
   height: 18em;
@@ -315,18 +234,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 1em;
 }
 
-/* line 250, ../sass/answer_page.scss */
+/* line 168, ../sass/body.scss */
 .preview {
   font-size: 0.9em;
   padding-top: 0.5em;
 }
-/* line 252, ../sass/answer_page.scss */
+/* line 170, ../sass/body.scss */
 .preview textarea:disabled {
   opacity: 0.5;
   background: #FFFFFF;
 }
 
-/* line 259, ../sass/answer_page.scss */
+/* line 177, ../sass/body.scss */
 .preview-text {
   width: 100%;
   height: 2.5em;
@@ -334,81 +253,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 0.4em;
 }
 
-/* line 266, ../sass/answer_page.scss */
+/* line 184, ../sass/body.scss */
 .table-checkbox {
   padding-right: 0.5em;
 }
 
-/* line 270, ../sass/answer_page.scss */
-.right-aside {
-  color: #787878;
-  display: none;
-}
-@media (min-width: 760px) {
-  /* line 270, ../sass/answer_page.scss */
-  .right-aside {
-    margin-top: 1em;
-    display: inline;
-    width: 18.91892%;
-    float: right;
-    margin-right: 0;
-  }
-}
-@media (min-width: 880px) {
-  /* line 270, ../sass/answer_page.scss */
-  .right-aside {
-    padding-right: 3%;
-  }
-}
-/* line 285, ../sass/answer_page.scss */
-.right-aside .right-content {
-  width: 100%;
-  background: #E8E8E8;
-  font-size: 0.8em;
-  padding: 1em;
-  /* unvisited link */
-  /* visited link */
-  /* mouse over link */
-  /* selected link */
-}
-/* line 290, ../sass/answer_page.scss */
-.right-aside .right-content ul {
-  padding-left: 1.25em;
-  list-style-type: disc;
-}
-/* line 294, ../sass/answer_page.scss */
-.right-aside .right-content .title {
-  font-size: 1.2em;
-}
-/* line 299, ../sass/answer_page.scss */
-.right-aside .right-content a:link {
-  color: #494949;
-}
-/* line 304, ../sass/answer_page.scss */
-.right-aside .right-content a:visited {
-  color: #8d5fd3;
-}
-/* line 309, ../sass/answer_page.scss */
-.right-aside .right-content a:hover {
-  color: #3c6eb4;
-}
-/* line 314, ../sass/answer_page.scss */
-.right-aside .right-content a:active {
-  color: #3c6eb4;
-}
-
-/* line 320, ../sass/answer_page.scss */
-.check {
-  font-size: 1.5em;
-}
-
-/* line 324, ../sass/answer_page.scss */
+/* line 188, ../sass/body.scss */
 .check:hover {
   color: #42a500;
   cursor: pointer;
 }
 
-/* line 329, ../sass/answer_page.scss */
+/* line 193, ../sass/body.scss */
 .follow-btn, .post-btn {
   height: 31%;
   cursor: pointer;
@@ -417,14 +273,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 0.4em;
 }
 
-/* line 345, ../sass/answer_page.scss */
+/* line 209, ../sass/body.scss */
 .follow-btn {
   background-color: #6496DC;
   width: 100%;
   padding: 0.4em 0 0.4em 0;
 }
 
-/* line 351, ../sass/answer_page.scss */
+/* line 215, ../sass/body.scss */
 .votes {
   font-size: 2.2em;
   font-weight: bold;
@@ -432,30 +288,66 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
 }
 
-/* line 358, ../sass/answer_page.scss */
+/* line 222, ../sass/body.scss */
 .up-vote-icon {
   margin-bottom: 0em;
   padding-bottom: 0em;
 }
 
-/* line 363, ../sass/answer_page.scss */
+/* line 227, ../sass/body.scss */
 .up-vote-icon:hover {
   color: #42a500;
 }
 
-/* line 367, ../sass/answer_page.scss */
+/* line 231, ../sass/body.scss */
 .down-vote-icon {
   margin-top: 0em;
   padding-top: 0em;
 }
 
-/* line 372, ../sass/answer_page.scss */
+/* line 236, ../sass/body.scss */
 .down-vote-icon:hover {
   color: #d40000;
 }
 
-/* line 376, ../sass/answer_page.scss */
+/* line 240, ../sass/body.scss */
 .sort-down-icon {
   padding-top: 0.5em;
   font-size: 1.2em;
+}
+
+/* line 245, ../sass/body.scss */
+.arrow-up {
+  margin-left: auto;
+  margin-right: auto;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #494949;
+  margin-bottom: 0.5em;
+}
+
+/* line 257, ../sass/body.scss */
+.arrow-up:hover {
+  cursor: pointer;
+  border-bottom: 20px solid #42a500;
+}
+
+/* line 263, ../sass/body.scss */
+.arrow-down {
+  width: 0;
+  height: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #494949;
+  margin-top: 0.5em;
+}
+
+/* line 274, ../sass/body.scss */
+.arrow-down:hover {
+  cursor: pointer;
+  border-top: 20px solid #db4437;
 }

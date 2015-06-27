@@ -1,0 +1,1870 @@
+/* line 5, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 21, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 43, ../sass/base.scss */
+.nav-container, .container, header-container {
+  font-family: "Open sans", Helvetica, Arial;
+  color: #494949;
+}
+
+/* line 48, ../sass/base.scss */
+.container {
+  font-size: 0.9em;
+}
+@media (min-width: 600px) {
+  /* line 48, ../sass/base.scss */
+  .container {
+    font-size: 1em;
+  }
+}
+
+/* line 55, ../sass/base.scss */
+.nav-container {
+  font-size: 1.1em;
+}
+
+/* line 59, ../sass/base.scss */
+a {
+  color: #3c6eb4;
+}
+
+/* line 63, ../sass/base.scss */
+body {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f9f9f9;
+}
+/* line 12, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* unvisited link */
+/* line 69, ../sass/base.scss */
+a:link {
+  text-decoration: none;
+  color: #3c6eb4;
+}
+
+/* visited link */
+/* line 75, ../sass/base.scss */
+a:visited {
+  color: gray;
+}
+
+/* line 79, ../sass/base.scss */
+.container, .header-container {
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+.container:after, .header-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 600px) {
+  /* line 79, ../sass/base.scss */
+  .container, .header-container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  .container:after, .header-container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media (min-width: 800px) {
+  /* line 79, ../sass/base.scss */
+  .container, .header-container {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  .container:after, .header-container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+/* line 89, ../sass/base.scss */
+.bold-text {
+  font-weight: bold;
+}
+
+/* line 93, ../sass/base.scss */
+.number {
+  font-size: 2.5em;
+}
+
+/* line 98, ../sass/base.scss */
+nav {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 3em;
+  background: gray;
+  background: -moz-linear-gradient(top, #fafafa 0%, #f0f0f0 28%, #dbdbdb 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #fafafa), color-stop(28%, #f0f0f0), color-stop(100%, #dbdbdb));
+  background: -webkit-linear-gradient(top, #fafafa 0%, #f0f0f0 28%, #dbdbdb 100%);
+  background: -o-linear-gradient(top, #fafafa 0%, #f0f0f0 28%, #dbdbdb 100%);
+  background: -ms-linear-gradient(top, #fafafa 0%, #f0f0f0 28%, #dbdbdb 100%);
+  background: linear-gradient(to bottom, #fafafa 0%, #f0f0f0 28%, #dbdbdb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#dbdbdb', GradientType=0 );
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  color: #6F6C6A;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  font-size: 1.7em;
+  z-index: 1000;
+}
+/* line 100, ../sass/base.scss */
+nav .nav-container {
+  height: 100%;
+}
+@media (min-width: 600px) {
+  /* line 100, ../sass/base.scss */
+  nav .nav-container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6.08108%;
+  }
+  /* line 12, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  nav .nav-container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media (min-width: 800px) {
+  /* line 100, ../sass/base.scss */
+  nav .nav-container {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5.06757%;
+  }
+  /* line 12, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  nav .nav-container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+/* line 111, ../sass/base.scss */
+nav .nav-container .large-profile {
+  width: 79.72973%;
+  float: right;
+  margin-right: 0;
+  display: none;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+nav .nav-container .large-profile:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 1200px) {
+  /* line 111, ../sass/base.scss */
+  nav .nav-container .large-profile {
+    padding-right: 3%;
+  }
+}
+/* line 122, ../sass/base.scss */
+nav .nav-container .large-profile .large-content {
+  float: right;
+  height: 3em;
+}
+/* line 127, ../sass/base.scss */
+nav .nav-container .large-profile .large-content table {
+  float: right;
+  vertical-align: middle;
+  height: 2.75em;
+}
+/* line 132, ../sass/base.scss */
+nav .nav-container .large-profile .large-content table td {
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0 0.4em 0 0.4em;
+  color: #6f6c6a;
+}
+/* line 137, ../sass/base.scss */
+nav .nav-container .large-profile .large-content table td .fa-user {
+  font-size: 2em;
+  color: #666666;
+}
+@media (min-width: 600px) {
+  /* line 111, ../sass/base.scss */
+  nav .nav-container .large-profile {
+    display: inline;
+  }
+}
+
+/* line 178, ../sass/base.scss */
+.mobile-hamburger {
+  height: 100%;
+  padding-left: 1%;
+  width: 12.16216%;
+  float: left;
+  margin-right: 1.35135%;
+}
+@media (min-width: 600px) {
+  /* line 178, ../sass/base.scss */
+  .mobile-hamburger {
+    display: none;
+  }
+}
+/* line 185, ../sass/base.scss */
+.mobile-hamburger .mobile-hamburger-icon {
+  color: #666666;
+  font-size: 1.7em;
+  margin-top: 0.3em;
+}
+
+/* line 192, ../sass/base.scss */
+.pop-up-hamburger {
+  height: 3em;
+  padding-left: 1.6%;
+  width: 18.91892%;
+  float: left;
+  margin-right: 1.35135%;
+}
+/* line 196, ../sass/base.scss */
+.pop-up-hamburger .mobile-hamburger-icon {
+  color: #666666;
+  font-size: 2em;
+}
+
+/* line 202, ../sass/base.scss */
+.field {
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 209, ../sass/base.scss */
+.field:hover {
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 5px #999;
+}
+
+/* line 214, ../sass/base.scss */
+.pop-up {
+  display: none;
+  background: #f9f9f9;
+  width: 60%;
+  height: 100vh;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  -moz-box-shadow: 0 0 1.5em #999;
+  -webkit-box-shadow: 0 0 1.5em #999;
+  box-shadow: 0 0 1.5em #999;
+}
+/* line 227, ../sass/base.scss */
+.pop-up .profile {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5em;
+  padding: 1em;
+}
+/* line 12, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+.pop-up .profile:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 236, ../sass/base.scss */
+.pop-up .profile .username {
+  font-size: 1.5em;
+  padding-left: 0.5em;
+  vertical-align: middle;
+}
+/* line 242, ../sass/base.scss */
+.pop-up .profile .stat {
+  font-size: 1em;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 248, ../sass/base.scss */
+.pop-up .profile .pop-td {
+  padding-bottom: 0.5em;
+}
+/* line 250, ../sass/base.scss */
+.pop-up .profile .pop-td .fa-user {
+  font-size: 2.5em;
+  color: #666666;
+}
+/* line 257, ../sass/base.scss */
+.pop-up .menu-items {
+  font-size: 1.2em;
+}
+/* line 261, ../sass/base.scss */
+.pop-up .menu-items ul li .list-item {
+  padding-left: 1em;
+}
+/* line 265, ../sass/base.scss */
+.pop-up .menu-items ul li:hover {
+  background: #dedede;
+}
+/* line 271, ../sass/base.scss */
+.pop-up .footer-items {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.2em;
+  background: #dedede;
+}
+/* line 279, ../sass/base.scss */
+.pop-up .footer-items ul li .list-item {
+  padding-left: 1em;
+}
+/* line 283, ../sass/base.scss */
+.pop-up .footer-items ul li:hover {
+  background: #999999;
+}
+
+/* line 291, ../sass/base.scss */
+.logo {
+  height: 100%;
+  width: 72.97297%;
+  float: left;
+  margin-right: 1.35135%;
+  font-size: 1.5em;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  /* line 291, ../sass/base.scss */
+  .logo {
+    width: 18.91892%;
+    float: left;
+    margin-right: 1.35135%;
+    text-align: left;
+    padding-left: 0.5em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 291, ../sass/base.scss */
+  .logo {
+    padding-left: 0em;
+  }
+}
+/* line 304, ../sass/base.scss */
+.logo table {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  height: 1.82em;
+}
+@media (min-width: 600px) {
+  /* line 304, ../sass/base.scss */
+  .logo table {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* line 314, ../sass/base.scss */
+.logo table td {
+  padding-right: 0.4em;
+  color: #6f6c6a;
+}
+
+/* line 321, ../sass/base.scss */
+.fedora-logo {
+  height: 100%;
+  padding-right: 1%;
+  width: 12.16216%;
+  float: right;
+  margin-right: 0;
+  position: relative;
+}
+@media (min-width: 600px) {
+  /* line 321, ../sass/base.scss */
+  .fedora-logo {
+    display: none;
+  }
+}
+
+/* line 331, ../sass/base.scss */
+.invisible-fedora-logo {
+  display: none;
+}
+@media (min-width: 600px) {
+  /* line 331, ../sass/base.scss */
+  .invisible-fedora-logo {
+    display: inline;
+  }
+}
+
+/* line 338, ../sass/base.scss */
+.fedora-logo-img {
+  float: right;
+  margin-top: 0.5em;
+}
+@media (min-width: 600px) {
+  /* line 338, ../sass/base.scss */
+  .fedora-logo-img {
+    display: none;
+  }
+}
+
+/* line 346, ../sass/base.scss */
+.stat-text {
+  float: right;
+}
+
+/* line 350, ../sass/base.scss */
+.circle, .small-circle {
+  margin-top: 0.2em;
+  vertical-align: middle;
+  float: left;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+/* line 359, ../sass/base.scss */
+.small-circle {
+  width: 5px;
+  height: 5px;
+  margin-top: 0.3em;
+}
+
+/* line 365, ../sass/base.scss */
+#badge-tag {
+  margin-top: 0.1em;
+  width: 8px;
+  height: 8px;
+  background: white;
+}
+
+/* line 372, ../sass/base.scss */
+#badge-gold, #small-badge-gold {
+  background: #ffcc00;
+}
+
+/* line 376, ../sass/base.scss */
+#badge-silver, #small-badge-silver {
+  background: #999999;
+}
+
+/* line 380, ../sass/base.scss */
+#badge-bronze, #small-badge-bronze {
+  background: #cc9933;
+}
+
+/* line 384, ../sass/base.scss */
+header {
+  background-color: #3c6eb4;
+  background-image: url("../images/header.png");
+  height: 8em;
+  line-height: 8em;
+  align-items: center;
+  justify-content: center;
+}
+/* line 387, ../sass/base.scss */
+header .header-container {
+  height: 8em;
+  margin-top: 3em;
+}
+
+/* line 401, ../sass/base.scss */
+.desktop-hamburger {
+  display: none;
+  float: right;
+  margin-top: 2.9em;
+}
+@media (min-width: 600px) {
+  /* line 401, ../sass/base.scss */
+  .desktop-hamburger {
+    display: inline;
+    width: 5.40541%;
+    float: left;
+    margin-right: 1.35135%;
+  }
+}
+@media (min-width: 940px) {
+  /* line 401, ../sass/base.scss */
+  .desktop-hamburger {
+    float: left;
+    padding-left: 1.8%;
+  }
+}
+
+/* line 416, ../sass/base.scss */
+.desktop-hamburger-icon {
+  width: 32px;
+  height: 32px;
+  padding-top: 0.06em;
+  padding-right: 0.04em;
+  color: #666666;
+}
+
+/* line 424, ../sass/base.scss */
+#image-div {
+  background: #dedede;
+  padding: 2px 4px 2px 4px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/* line 430, ../sass/base.scss */
+.search-text-div {
+  width: 72.97297%;
+  float: left;
+  margin-right: 1.35135%;
+  height: 100%;
+}
+@media (min-width: 600px) {
+  /* line 430, ../sass/base.scss */
+  .search-text-div {
+    width: 72.97297%;
+    float: left;
+    margin-right: 1.35135%;
+    padding-left: 0.5em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 430, ../sass/base.scss */
+  .search-text-div {
+    padding-left: 0em;
+  }
+}
+
+/* line 442, ../sass/base.scss */
+.search-text {
+  width: 100%;
+  height: 30%;
+  margin-top: 2.9em;
+  background: #f5f5f5;
+  font-size: 0.8rem;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 10px;
+  font-size: 15px;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.3);
+  clear: both;
+}
+
+/* line 458, ../sass/base.scss */
+.search-btn-div {
+  width: 25.67568%;
+  float: right;
+  margin-right: 0;
+  height: 100%;
+  height: 100%;
+}
+@media (min-width: 600px) {
+  /* line 458, ../sass/base.scss */
+  .search-btn-div {
+    width: 18.91892%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 458, ../sass/base.scss */
+  .search-btn-div {
+    padding-right: 3%;
+  }
+}
+
+/* line 470, ../sass/base.scss */
+.search-btn {
+  width: 100%;
+  height: 31%;
+  cursor: pointer;
+  margin-top: 1.9em;
+  box-shadow: 0px 3px 2px -2px #666666;
+  background-color: #42a500;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  border: 3px solid #128c1e;
+  color: #ffffff;
+  font-size: 1.4em;
+  font-style: normal;
+}
+
+/* line 487, ../sass/base.scss */
+.footer-tag {
+  width: 18.91892%;
+  float: left;
+  text-align: center;
+  height: 100%;
+  line-height: 2.5em;
+  font-weight: bold;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.footer-tag:nth-child(5n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.footer-tag:nth-child(5n + 2) {
+  margin-left: 20.27027%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.footer-tag:nth-child(5n + 3) {
+  margin-left: 40.54054%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.footer-tag:nth-child(5n + 4) {
+  margin-left: 60.81081%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.footer-tag:nth-child(5n + 5) {
+  margin-left: 81.08108%;
+  margin-right: -100%;
+  clear: none;
+}
+
+/* line 496, ../sass/base.scss */
+footer {
+  height: 2.5em;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: gray;
+  background: -moz-linear-gradient(top, #dedede 0%, #dedede 28%, #999999 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #dedede), color-stop(28%, #dedede), color-stop(100%, #999999));
+  background: -webkit-linear-gradient(top, #dedede 0%, #dedede 28%, #999999 100%);
+  background: -o-linear-gradient(top, #dedede 0%, #dedede 28%, #999999 100%);
+  background: -ms-linear-gradient(top, #dedede 0%, #dedede 28%, #999999 100%);
+  background: linear-gradient(to bottom, #dedede 0%, #dedede 28%, #999999 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$light-gray', endColorstr='$forty-gray', GradientType=0 );
+  display: flex;
+}
+/* line 498, ../sass/base.scss */
+footer .container {
+  height: 100%;
+}
+@media (min-width: 600px) {
+  /* line 498, ../sass/base.scss */
+  footer .container {
+    padding-left: 6.08108%;
+  }
+}
+@media (min-width: 800px) {
+  /* line 498, ../sass/base.scss */
+  footer .container {
+    width: 59.7973%;
+    float: left;
+    margin-right: 1.35135%;
+    margin-left: 12.5%;
+    padding-left: 5.06757%;
+  }
+}
+/* line 511, ../sass/base.scss */
+footer .askbot {
+  display: inline;
+  height: 100%;
+}
+@media (min-width: 1200px) {
+  /* line 511, ../sass/base.scss */
+  footer .askbot {
+    width: 8.10811%;
+    float: left;
+    margin-right: 1.35135%;
+    padding-right: 1.83%;
+  }
+}
+@media (min-width: 800px) {
+  /* line 511, ../sass/base.scss */
+  footer .askbot {
+    width: 13.51351%;
+    float: left;
+    margin-right: 1.35135%;
+  }
+}
+/* line 521, ../sass/base.scss */
+footer .askbot .cc-by-sa {
+  display: none;
+  float: right;
+  margin-top: 0.3em;
+}
+@media (min-width: 800px) {
+  /* line 521, ../sass/base.scss */
+  footer .askbot .cc-by-sa {
+    display: inline;
+  }
+}
+@media (min-width: 600px) {
+  /* line 496, ../sass/base.scss */
+  footer {
+    padding-left: 6.75676%;
+  }
+}
+
+/* line 564, ../sass/base.scss */
+.table-right-align {
+  text-align: right;
+}
+
+/* line 568, ../sass/base.scss */
+.squaredFour {
+  width: 1.1em;
+  position: relative;
+}
+/* line 571, ../sass/base.scss */
+.squaredFour label {
+  width: 1.1em;
+  height: 1.1em;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fcfff4;
+  background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  border-radius: 4px;
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+/* line 582, ../sass/base.scss */
+.squaredFour label:after {
+  content: '';
+  width: 9px;
+  height: 5px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border: 3px solid #333;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  transform: rotate(-45deg);
+}
+/* line 596, ../sass/base.scss */
+.squaredFour label:hover::after {
+  opacity: 0.5;
+}
+/* line 600, ../sass/base.scss */
+.squaredFour input[type=checkbox] {
+  visibility: hidden;
+}
+/* line 602, ../sass/base.scss */
+.squaredFour input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+
+/* line 608, ../sass/base.scss */
+.normal-btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #3c6eb4;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media (min-width: 800px) {
+  /* line 634, ../sass/base.scss */
+  .main-left-container {
+    width: 79.72973%;
+    float: left;
+    margin-right: 1.35135%;
+  }
+}
+@media (min-width: 600px) {
+  /* line 634, ../sass/base.scss */
+  .main-left-container {
+    padding-left: 0.5em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 634, ../sass/base.scss */
+  .main-left-container {
+    padding-left: 0em;
+  }
+}
+
+/* line 647, ../sass/base.scss */
+.main-inside-container {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+@media (min-width: 600px) {
+  /* line 647, ../sass/base.scss */
+  .main-inside-container {
+    margin-left: 6.75676%;
+  }
+}
+@media (min-width: 800px) {
+  /* line 647, ../sass/base.scss */
+  .main-inside-container {
+    margin-left: 8.78378%;
+  }
+}
+
+/* line 661, ../sass/base.scss */
+.right-aside {
+  color: #787878;
+  display: none;
+}
+@media (min-width: 800px) {
+  /* line 661, ../sass/base.scss */
+  .right-aside {
+    margin-top: 1em;
+    display: inline;
+    width: 18.91892%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 661, ../sass/base.scss */
+  .right-aside {
+    padding-right: 3%;
+  }
+}
+/* line 673, ../sass/base.scss */
+.right-aside .right-content {
+  width: 100%;
+  background: #E8E8E8;
+  font-size: 0.8em;
+  padding: 1em;
+  /* unvisited link */
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+/* line 678, ../sass/base.scss */
+.right-aside .right-content ul {
+  padding-left: 1.25em;
+  list-style-type: disc;
+}
+/* line 682, ../sass/base.scss */
+.right-aside .right-content .normal-ul {
+  padding-left: 0em;
+  list-style-type: none;
+}
+/* line 686, ../sass/base.scss */
+.right-aside .right-content .title {
+  font-size: 1.2em;
+}
+/* line 691, ../sass/base.scss */
+.right-aside .right-content a:link {
+  color: #787878;
+}
+/* line 696, ../sass/base.scss */
+.right-aside .right-content a:visited {
+  color: #787878;
+}
+/* line 701, ../sass/base.scss */
+.right-aside .right-content a:hover {
+  color: #3c6eb4;
+}
+/* line 706, ../sass/base.scss */
+.right-aside .right-content a:active {
+  color: #3c6eb4;
+}
+/* line 710, ../sass/base.scss */
+.right-aside .right-content .tag:link {
+  color: #fff;
+}
+/* line 714, ../sass/base.scss */
+.right-aside .right-content .tag:visited {
+  color: #fff;
+}
+/* line 718, ../sass/base.scss */
+.right-aside .right-content .tag:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #494949;
+}
+/* line 724, ../sass/base.scss */
+.right-aside .right-content .tagged-tag:hover {
+  background: #8B4500;
+}
+/* line 728, ../sass/base.scss */
+.right-aside .right-content .tag:active {
+  color: #fff;
+}
+/* line 733, ../sass/base.scss */
+.right-aside .right-content-colorless {
+  background-color: #f9f9f9;
+  padding: 1em;
+  padding-top: 0em;
+}
+
+/* tooltip style */
+/* line 742, ../sass/base.scss */
+.tooltip {
+  display: inline;
+  position: relative;
+}
+
+/* line 747, ../sass/base.scss */
+.tooltip:hover:before {
+  border: solid;
+  border-color: #333 transparent;
+  border-width: 6px 6px 0 6px;
+  bottom: 20px;
+  content: "";
+  left: 50%;
+  position: absolute;
+  z-index: 99;
+}
+
+/* line 758, ../sass/base.scss */
+.tooltip:hover:after {
+  background: #333;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  bottom: 26px;
+  color: #fff;
+  content: attr(title);
+  left: 20%;
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 98;
+  font-size: 0.3em;
+}
+
+/* others */
+/* line 777, ../sass/base.scss */
+.question {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* line 782, ../sass/base.scss */
+.card {
+  margin-bottom: 4em;
+  position: relative;
+}
+/* line 785, ../sass/base.scss */
+.card .tick {
+  display: none;
+  width: 23px;
+  height: 23px;
+  background: #42a500;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: 99;
+  border-radius: 3px;
+  padding: 0.2em;
+}
+/* line 796, ../sass/base.scss */
+.card .tick .icon {
+  color: #fff;
+}
+@media (min-width: 600px) {
+  /* line 785, ../sass/base.scss */
+  .card .tick {
+    display: inline;
+  }
+}
+
+/* line 805, ../sass/base.scss */
+.tag {
+  float: left;
+  height: 24px;
+  line-height: 23px;
+  position: relative;
+  font-size: 11px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 0 7px 0 10px;
+  background: #6d6d6d;
+  color: #fff;
+  text-decoration: none;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 826, ../sass/base.scss */
+.top-tagged-tag {
+  margin-top: 0px;
+}
+
+/* line 830, ../sass/base.scss */
+.top {
+  margin-bottom: 0.6em;
+}
+
+/* line 834, ../sass/base.scss */
+.tag:link {
+  color: #fff;
+}
+
+/* line 838, ../sass/base.scss */
+.tag:before {
+  content: "";
+  float: left;
+  position: absolute;
+  left: -12px;
+  border-color: transparent #6d6d6d transparent transparent;
+  border-style: solid;
+  border-width: 12px 12px 12px 0;
+}
+
+/* line 848, ../sass/base.scss */
+.tag:hover:before {
+  border-color: transparent #494949 transparent transparent;
+}
+
+/* line 852, ../sass/base.scss */
+.tag:link {
+  color: #fff;
+}
+
+/* line 856, ../sass/base.scss */
+.tag:visited {
+  color: #fff;
+}
+
+/* line 860, ../sass/base.scss */
+.tag:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #494949;
+}
+
+/* line 866, ../sass/base.scss */
+.tag:active {
+  color: #fff;
+}
+
+/* line 871, ../sass/base.scss */
+.tag:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  float: left;
+  width: 5px;
+  height: 5px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: #fff;
+  -moz-box-shadow: -1px -1px 2px #424242;
+  -webkit-box-shadow: -1px -1px 2px #424242;
+  box-shadow: -1px -1px 2px #424242;
+}
+
+/* line 888, ../sass/base.scss */
+.tagged-tag {
+  background: #e59728;
+}
+
+/* line 892, ../sass/base.scss */
+.tagged-tag:hover {
+  background: #8B4500;
+}
+
+/* line 896, ../sass/base.scss */
+.tagged-tag:before {
+  border-color: transparent #e59728 transparent transparent;
+}
+
+/* line 900, ../sass/base.scss */
+.tagged-tag:hover:before {
+  border-color: transparent #8B4500 transparent transparent;
+}
+
+/* line 904, ../sass/base.scss */
+.tagged-tag:after {
+  -moz-box-shadow: -1px -1px 2px #D2691E;
+  -webkit-box-shadow: -1px -1px 2px #D2691E;
+  box-shadow: -1px -1px 2px #D2691E;
+}
+
+/* line 910, ../sass/base.scss */
+.user {
+  float: right;
+  background: #dedede;
+  padding: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 0.7em;
+}
+/* line 917, ../sass/base.scss */
+.user td {
+  padding-top: 0.2em;
+}
+
+@media (min-width: 600px) {
+  /* line 924, ../sass/base.scss */
+  .question, .answer {
+    margin-left: 6.75676%;
+  }
+}
+@media (min-width: 800px) {
+  /* line 924, ../sass/base.scss */
+  .question, .answer {
+    margin-left: 8.78378%;
+  }
+}
+
+/* line 933, ../sass/base.scss */
+.main-content-td {
+  vertical-align: top;
+}
+
+/* line 937, ../sass/base.scss */
+.main-content {
+  padding-top: 0.2em;
+}
+
+/* line 941, ../sass/base.scss */
+.content {
+  padding-top: 0.5em;
+}
+
+/* line 945, ../sass/base.scss */
+.q-a-tag {
+  padding-top: 1em;
+}
+
+/* line 950, ../sass/base.scss */
+.comment {
+  margin-top: 1em;
+}
+/* line 951, ../sass/base.scss */
+.comment .collapsible-comment {
+  display: none;
+}
+@media (min-width: 600px) {
+  /* line 951, ../sass/base.scss */
+  .comment .collapsible-comment {
+    display: inline;
+  }
+}
+/* line 958, ../sass/base.scss */
+.comment .title {
+  margin-bottom: 0.5em;
+}
+/* line 962, ../sass/base.scss */
+.comment .comment-header {
+  display: none;
+}
+@media (min-width: 600px) {
+  /* line 962, ../sass/base.scss */
+  .comment .comment-header {
+    display: inline;
+  }
+}
+/* line 969, ../sass/base.scss */
+.comment .collapsible-table-comment {
+  font-size: 0.8em;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  /* line 969, ../sass/base.scss */
+  .comment .collapsible-table-comment {
+    display: none;
+  }
+}
+/* line 980, ../sass/base.scss */
+.comment .comment-content {
+  font-size: 0.8em;
+}
+/* line 983, ../sass/base.scss */
+.comment #comment-text {
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+/* line 989, ../sass/base.scss */
+.title {
+  font-weight: bold;
+}
+
+/* line 993, ../sass/base.scss */
+#question-title {
+  font-size: 1.3em;
+}
+
+/* line 997, ../sass/base.scss */
+#answer-title {
+  margin-top: 1.5em;
+  font-size: 1.2em;
+}
+
+/* line 1002, ../sass/base.scss */
+.sort {
+  float: right;
+  margin-top: 1.5em;
+  font-size: 0.8em;
+}
+@media (min-width: 600px) {
+  /* line 1002, ../sass/base.scss */
+  .sort {
+    font-size: 1em;
+  }
+}
+/* line 1009, ../sass/base.scss */
+.sort a {
+  cursor: pointer;
+}
+/* line 1012, ../sass/base.scss */
+.sort .down-arrow {
+  width: 8px;
+  height: 8px;
+}
+@media (min-width: 600px) {
+  /* line 1012, ../sass/base.scss */
+  .sort .down-arrow {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* line 1022, ../sass/base.scss */
+.left-aside {
+  padding-right: 0.6em;
+  vertical-align: top;
+}
+@media (min-width: 600px) {
+  /* line 1022, ../sass/base.scss */
+  .left-aside {
+    padding-right: 0.8em;
+  }
+}
+/* line 1028, ../sass/base.scss */
+.left-aside li {
+  padding-bottom: 0.5em;
+}
+
+/* line 1033, ../sass/base.scss */
+#twitter {
+  padding-top: 0.5em;
+}
+
+/* line 1037, ../sass/base.scss */
+.left-icons {
+  font-size: 1.2em;
+}
+
+/* line 1041, ../sass/base.scss */
+.answer-left-aside {
+  padding-top: 0.5em;
+}
+
+/* line 1045, ../sass/base.scss */
+.answer {
+  margin-bottom: 0.5em;
+}
+
+/* line 1049, ../sass/base.scss */
+.comment-icon {
+  color: #3c6eb4;
+}
+
+/* line 1054, ../sass/base.scss */
+.answer-textarea {
+  width: 100%;
+  height: 18em;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+/* line 1061, ../sass/base.scss */
+.preview {
+  font-size: 0.9em;
+  padding-top: 0.5em;
+}
+/* line 1063, ../sass/base.scss */
+.preview textarea:disabled {
+  opacity: 0.5;
+  background: #FFFFFF;
+}
+
+/* line 1070, ../sass/base.scss */
+.preview-text {
+  width: 100%;
+  height: 2.5em;
+  padding: 0.5em;
+  margin-top: 0.4em;
+}
+
+/* line 1077, ../sass/base.scss */
+.table-checkbox {
+  padding-right: 0.5em;
+}
+
+/* line 1081, ../sass/base.scss */
+.check {
+  font-size: 1.5em;
+}
+
+/* line 1085, ../sass/base.scss */
+.check:hover {
+  color: #42a500;
+  cursor: pointer;
+}
+
+/* line 1090, ../sass/base.scss */
+.follow-btn, .post-btn {
+  height: 31%;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.4em;
+}
+
+/* line 1099, ../sass/base.scss */
+.follow-btn {
+  background-color: #6496DC;
+  width: 100%;
+  padding: 0.4em 0 0.4em 0;
+}
+
+/* line 1105, ../sass/base.scss */
+.votes {
+  font-size: 2.2em;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* line 1112, ../sass/base.scss */
+.up-vote-icon {
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
+
+/* line 1117, ../sass/base.scss */
+.up-vote-icon:hover {
+  color: #42a500;
+}
+
+/* line 1121, ../sass/base.scss */
+.down-vote-icon {
+  margin-top: 0em;
+  padding-top: 0em;
+}
+
+/* line 1126, ../sass/base.scss */
+.down-vote-icon:hover {
+  color: #d40000;
+}
+
+/* line 1130, ../sass/base.scss */
+.sort-down-icon {
+  padding-top: 0.5em;
+  font-size: 1.2em;
+}
+
+/* line 1137, ../sass/base.scss */
+.menu-container {
+  background: #dbdbdb;
+  height: 2.5em;
+}
+/* line 1140, ../sass/base.scss */
+.menu-container .content {
+  height: 2.5em;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 12, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+.menu-container .content:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 600px) {
+  /* line 1140, ../sass/base.scss */
+  .menu-container .content {
+    width: 93.24324%;
+    float: left;
+    margin-right: 1.35135%;
+    margin-left: 6.75676%;
+    padding-left: 0.5em;
+  }
+}
+@media (min-width: 800px) {
+  /* line 1140, ../sass/base.scss */
+  .menu-container .content {
+    width: 72.97297%;
+    float: left;
+    margin-right: 1.35135%;
+    margin-left: 6.75676%;
+    padding-left: 0.5em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1140, ../sass/base.scss */
+  .menu-container .content {
+    padding-left: 0em;
+  }
+}
+/* line 1160, ../sass/base.scss */
+.menu-container .content .left, .menu-container .content .right {
+  padding-top: 0.4em;
+  color: #666666;
+}
+/* line 1165, ../sass/base.scss */
+.menu-container .content .left {
+  display: none;
+}
+@media (min-width: 1200px) {
+  /* line 1165, ../sass/base.scss */
+  .menu-container .content .left {
+    display: inline;
+    width: 32.43243%;
+    float: left;
+    margin-right: 1.35135%;
+  }
+}
+/* line 1173, ../sass/base.scss */
+.menu-container .content .right {
+  text-align: right;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 1200px) {
+  /* line 1173, ../sass/base.scss */
+  .menu-container .content .right {
+    width: 66.21622%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 1180, ../sass/base.scss */
+.menu-container .content .right .menu-item {
+  width: 18.91892%;
+  float: left;
+  text-align: center;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.menu-container .content .right .menu-item:nth-child(5n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.menu-container .content .right .menu-item:nth-child(5n + 2) {
+  margin-left: 20.27027%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.menu-container .content .right .menu-item:nth-child(5n + 3) {
+  margin-left: 40.54054%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.menu-container .content .right .menu-item:nth-child(5n + 4) {
+  margin-left: 60.81081%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.menu-container .content .right .menu-item:nth-child(5n + 5) {
+  margin-left: 81.08108%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 1185, ../sass/base.scss */
+.menu-container .content .right #activity {
+  font-weight: bold;
+}
+
+/* line 1194, ../sass/base.scss */
+.main .username {
+  float: right;
+  font-size: 0.8em;
+  margin-top: 0.55em;
+  margin-right: 1.2em;
+}
+
+/* line 1203, ../sass/base.scss */
+.question-card {
+  width: 100%;
+  padding: 0.5em 0.5em 0.5em 0;
+  border-radius: 0.5em;
+  background-color: #f1f1f1;
+  border: solid 0.1em #dbdbdb;
+  display: flex;
+  webkit-box-shadow: 0px 6px 4px -4px rgba(0, 0, 0, 0.8), 0px 10px 0px 0px #D4D4D4;
+  -moz-box-shadow: 0px 6px 4px -4px rgba(0, 0, 0, 0.8), 0px 10px 0px 0px #D4D4D4;
+  box-shadow: 0px 6px 4px -4px rgba(0, 0, 0, 0.8), 0px 24px 0px 0px #D4D4D4;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 600px) {
+  /* line 1203, ../sass/base.scss */
+  .question-card {
+    box-shadow: 0px 6px 4px -4px rgba(0, 0, 0, 0.8), 0px 25px 0px 0px #D4D4D4;
+  }
+}
+/* line 12, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+.question-card:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 1221, ../sass/base.scss */
+.question-card .left {
+  width: 12.16216%;
+  float: left;
+  margin-right: 1.35135%;
+  font-size: 2.5em;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  /* line 1221, ../sass/base.scss */
+  .question-card .left {
+    display: none;
+  }
+}
+/* line 1228, ../sass/base.scss */
+.question-card .left .icon {
+  font-size: 0.7em;
+  margin-top: 0.1em;
+  font-color: #494949;
+}
+/* line 1233, ../sass/base.scss */
+.question-card .left .correct {
+  color: #42a500;
+}
+/* line 1238, ../sass/base.scss */
+.question-card .right {
+  width: 86.48649%;
+  float: right;
+  margin-right: 0;
+}
+@media (min-width: 600px) {
+  /* line 1238, ../sass/base.scss */
+  .question-card .right {
+    width: 72.97297%;
+    float: left;
+    margin-right: 1.35135%;
+    padding-left: 1em;
+  }
+}
+@media (min-width: 800px) {
+  /* line 1238, ../sass/base.scss */
+  .question-card .right {
+    width: 66.21622%;
+    float: left;
+    margin-right: 1.35135%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1238, ../sass/base.scss */
+  .question-card .right {
+    width: 72.97297%;
+    float: left;
+    margin-right: 1.35135%;
+  }
+}
+/* line 1250, ../sass/base.scss */
+.question-card .right .question-pane {
+  font-size: 1.2em;
+}
+/* line 1255, ../sass/base.scss */
+.question-card .right-stat {
+  display: none;
+}
+@media (min-width: 600px) {
+  /* line 1255, ../sass/base.scss */
+  .question-card .right-stat {
+    display: inline;
+    width: 25.67568%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 800px) {
+  /* line 1255, ../sass/base.scss */
+  .question-card .right-stat {
+    width: 32.43243%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1255, ../sass/base.scss */
+  .question-card .right-stat {
+    width: 25.67568%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 1267, ../sass/base.scss */
+.question-card .right-stat .stat {
+  width: 32.43243%;
+  float: left;
+  font-size: 2.3em;
+  text-align: center;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.question-card .right-stat .stat:nth-child(3n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.question-card .right-stat .stat:nth-child(3n + 2) {
+  margin-left: 33.78378%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_gallery.scss */
+.question-card .right-stat .stat:nth-child(3n + 3) {
+  margin-left: 67.56757%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 1271, ../sass/base.scss */
+.question-card .right-stat .stat .icon {
+  font-size: 0.7em;
+  color: #494949;
+}
+
+/* Pagination */
+/* line 1283, ../sass/base.scss */
+.pagination {
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+@media (min-width: 600px) {
+  /* line 1283, ../sass/base.scss */
+  .pagination {
+    margin-left: 6.75676%;
+  }
+}
+@media (min-width: 800px) {
+  /* line 1283, ../sass/base.scss */
+  .pagination {
+    margin-left: 8.78378%;
+  }
+}
+/* line 1292, ../sass/base.scss */
+.pagination ul {
+  list-style: none;
+  position: relative;
+  float: left;
+  display: block;
+  left: 48%;
+}
+/* line 1294, ../sass/base.scss */
+.pagination ul li {
+  position: relative;
+  float: left;
+  display: block;
+  right: 50%;
+}
+
+/* line 1301, ../sass/base.scss */
+.paginate.pag3 {
+  font-size: 1em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 1308, ../sass/base.scss */
+.paginate.pag3 li {
+  font-weight: bold;
+}
+
+/* line 1310, ../sass/base.scss */
+.paginate.pag3 li .page {
+  display: block;
+  float: left;
+  color: #6d6d6d;
+  text-decoration: none;
+  padding: 9px 12px;
+  border-radius: 16px;
+  background: #f9f9f9;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  margin-right: 0.2em;
+}
+@media (min-width: 600px) {
+  /* line 1310, ../sass/base.scss */
+  .paginate.pag3 li .page {
+    margin-right: 0.5em;
+  }
+}
+
+/* line 1327, ../sass/base.scss */
+.paginate.pag3 li .page:hover {
+  color: #fff;
+  background: #6d6d6d;
+}
+
+/* line 1331, ../sass/base.scss */
+.paginate.pag3 li .page:active {
+  -webkit-box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.55);
+  box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.55);
+}
+
+/* line 1337, ../sass/base.scss */
+.paginate.pag3 li.navpage .page {
+  padding: 9px 13px;
+  background: #c8eac6;
+  color: #4f664e;
+}
+
+/* line 1342, ../sass/base.scss */
+.paginate.pag3 li.navpage .page:hover {
+  color: #414e40;
+  background: #a4c6a2;
+}
+
+/* line 1347, ../sass/base.scss */
+.paginate.pag3 li.current {
+  background: #6d6d6d;
+}
+
+/* line 1348, ../sass/base.scss */
+.paginate.pag3 li.arrow {
+  background: #6d6d6d;
+  color: #fff;
+}
+
+/* line 1349, ../sass/base.scss */
+.paginate.pag3 li.single, .paginate.pag3 li.current, .paginate.pag3 li.arrow {
+  display: block;
+  float: left;
+  padding: 9px 12px;
+  margin-right: 6px;
+  border-radius: 16px;
+  color: #fff;
+}

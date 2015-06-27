@@ -2,9 +2,9 @@
 @import "susy";
 @import "breakpoint";
 
-$small: 560px;
-$medium: 760px;
-$large: 880px;
+$small: 600px;
+$medium: 800px;
+$large: 1200px;
 
 $fedora-blue: #3c6eb4;
 $button-green: #42a500;
@@ -32,14 +32,7 @@ $susy: (
 
 /////////////////////////////////////////////////
 
-.container{
-	margin-bottom: 3em;
-    //background: green;
-}
-
 .question, .answer{
-    //height: 10em;
-    //background: yellow;
     @include breakpoint($small){
         @include pre(1);
     }
@@ -56,71 +49,13 @@ $susy: (
     padding-top: 0.2em;
 }
 
-
-
 .content{
     padding-top: 0.5em;
 }
 
 .q-a-tag{
     padding-top: 1em;
-    //background: yellow;
 }
-
-
-.tag{
-  float: left;
-  height: 24px;
-  line-height: 23px;
-  position: relative;
-  font-size: 90%;
-  font-weight: 500;
-  margin-right: 0.8em;
-  margin-bottom: 0.6em;
-  padding: 0 7px 0 7px;
-  border-radius: .25em;
-  background: $forty-gray;
-  color: #fff;
-  text-decoration: none;
-}
-
-.tag:hover{
-    cursor: pointer;
-    background: $gray;
-}
-
-.user{
-    float: right;
-    background: $light-gray;
-    padding: 1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    font-size: 0.7em;
-    td{
-        padding-top: 0.2em;
-    }
-}
-
-.main-left-container{
-	@include breakpoint($medium){
-    	@include span(12 of 15);
-    }
-    @include breakpoint($small){
-        padding-left: 0.5em;
-    }
-      @include breakpoint(1200px){
-        padding-left: 0em;
-      }
-    //background: blue;
-}
-
-//#question-title{
-        //font-size: 1.2em;
-        //font-weight: bold;
-        //@include breakpoint($small){
-            //font-size: 1.2em;
-        //}
-//}
 
 
 .comment{
@@ -143,7 +78,6 @@ $susy: (
     }
 
     .collapsible-table-comment{
-        font-size: 0.8em;
         @include breakpoint($small){
             display: none;
         }
@@ -152,11 +86,10 @@ $susy: (
     
     margin-top: 1em;
         
-        
     .comment-content{
         font-size: 0.8em;
     }
-    #comment-text{
+    .comment-text{
         font-size: 0.8em;
         cursor: pointer;
     }
@@ -178,10 +111,7 @@ $susy: (
 .sort{
     float: right;
     margin-top: 1.5em;
-    font-size: 0.8em;
-    @include breakpoint($small){
-        font-size: 1em;
-    }
+    font-size: 1em;
     a{
         cursor: pointer;
     }
@@ -196,11 +126,12 @@ $susy: (
 }
 
 .left-aside{
-    padding-right:0.6em;
-    @include breakpoint($small){
-        padding-right:0.8em;
-    }
+    //padding-right:0.6em;
+    //@include breakpoint($small){
+        //padding-right:0.8em;
+    //}
     vertical-align: top;
+    text-align: center;
     li{
         padding-bottom: 0.5em;
     }
@@ -211,34 +142,21 @@ $susy: (
 }
 
 .left-icons{
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 .answer-left-aside{
     padding-top: 0.5em;
 }
 
-.question{
-	margin-top: 1em;
-	margin-bottom: 0.5em;
-}
-
 .answer{
 	margin-bottom: 0.5em;
 }
 
-
-.main{
-    //background: pink;
-}
-
 .comment-icon{
     color: $fedora-blue;
+    font-size: 1em;
 }
-
-
-
-
 
 .answer-textarea{
     width: 100%;
@@ -265,60 +183,6 @@ $susy: (
 
 .table-checkbox{
     padding-right: 0.5em;
-}
-
-.right-aside{
-    color: #787878;
-	display: none;
-	@include breakpoint($medium){
-		margin-top: 1em;
-    	display: inline;
-    	@include span(3 at 13 of 15);
-    }
-
-    @include breakpoint($large){
-        padding-right: 3%;
-    }
-    //@include breakpoint($large){
-        //@include span(2 at 14 of 15);
-    //}
-    .right-content{
-        width: 100%;
-        background: #E8E8E8;
-        font-size: 0.8em;
-        padding: 1em;
-        ul{
-            padding-left: 1.25em;
-            list-style-type: disc;
-        }
-        .title{
-            font-size: 1.2em;
-            
-        }
-        /* unvisited link */
-        a:link {
-            color: $dark-gray;
-        }
-
-        /* visited link */
-        a:visited {
-            color: #8d5fd3;
-        }
-
-        /* mouse over link */
-        a:hover {
-            color: $fedora-blue;
-        }
-
-        /* selected link */
-        a:active {
-            color: $fedora-blue;
-        }
-    }
-}
-
-.check{
-    font-size: 1.5em;   
 }
 
 .check:hover{
@@ -378,5 +242,36 @@ $susy: (
     font-size: 1.2em;
 }
 
+.arrow-up {
+    margin-left: auto;
+    margin-right: auto;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid $dark-gray;
+    margin-bottom: 0.5em;
+
+}
+
+.arrow-up:hover{
+        cursor: pointer;
+        border-bottom: 20px solid $button-green;
+}
 
 
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid $dark-gray;
+    margin-top: 0.5em;
+}
+
+.arrow-down:hover{
+        cursor: pointer;
+        border-top: 20px solid #db4437;
+}
